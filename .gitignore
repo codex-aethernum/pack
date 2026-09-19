@@ -49,3 +49,8 @@ minecraft/.sable
 minecraft/.qmenu_opened.marker
 minecraft/ponders_watched.json
 minecraft/patchouli_data.json
+
+# ── Мусор, который игра пишет при каждом запуске ──
+*.bak
+minecraft/config/ars_nouveau/search_index/
+minecraft/config/spark/
