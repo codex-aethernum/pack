@@ -90,12 +90,12 @@ const CLOCHE = [
     "time": 370
   },
   {
-    "seed": "botania:black_petal",
+    "seed": "botania:black_mystical_petal",
     "block": "botania:black_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:black_petal",
+        "botania:black_mystical_petal",
         1
       ]
     ],
@@ -103,12 +103,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:black_petal",
+    "seed": "botania:black_mystical_petal",
     "block": "botania:black_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:black_petal",
+        "botania:black_mystical_petal",
         1
       ]
     ],
@@ -116,12 +116,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:blue_petal",
+    "seed": "botania:blue_mystical_petal",
     "block": "botania:blue_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:blue_petal",
+        "botania:blue_mystical_petal",
         1
       ]
     ],
@@ -129,12 +129,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:blue_petal",
+    "seed": "botania:blue_mystical_petal",
     "block": "botania:blue_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:blue_petal",
+        "botania:blue_mystical_petal",
         1
       ]
     ],
@@ -142,12 +142,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:brown_petal",
+    "seed": "botania:brown_mystical_petal",
     "block": "botania:brown_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:brown_petal",
+        "botania:brown_mystical_petal",
         1
       ]
     ],
@@ -155,12 +155,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:brown_petal",
+    "seed": "botania:brown_mystical_petal",
     "block": "botania:brown_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:brown_petal",
+        "botania:brown_mystical_petal",
         1
       ]
     ],
@@ -168,12 +168,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:cyan_petal",
+    "seed": "botania:cyan_mystical_petal",
     "block": "botania:cyan_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:cyan_petal",
+        "botania:cyan_mystical_petal",
         1
       ]
     ],
@@ -181,12 +181,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:cyan_petal",
+    "seed": "botania:cyan_mystical_petal",
     "block": "botania:cyan_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:cyan_petal",
+        "botania:cyan_mystical_petal",
         1
       ]
     ],
@@ -194,12 +194,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:gray_petal",
+    "seed": "botania:gray_mystical_petal",
     "block": "botania:gray_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:gray_petal",
+        "botania:gray_mystical_petal",
         1
       ]
     ],
@@ -207,12 +207,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:gray_petal",
+    "seed": "botania:gray_mystical_petal",
     "block": "botania:gray_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:gray_petal",
+        "botania:gray_mystical_petal",
         1
       ]
     ],
@@ -220,12 +220,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:green_petal",
+    "seed": "botania:green_mystical_petal",
     "block": "botania:green_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:green_petal",
+        "botania:green_mystical_petal",
         1
       ]
     ],
@@ -233,12 +233,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:green_petal",
+    "seed": "botania:green_mystical_petal",
     "block": "botania:green_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:green_petal",
+        "botania:green_mystical_petal",
         1
       ]
     ],
@@ -246,12 +246,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:light_blue_petal",
+    "seed": "botania:light_blue_mystical_petal",
     "block": "botania:light_blue_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:light_blue_petal",
+        "botania:light_blue_mystical_petal",
         1
       ]
     ],
@@ -259,12 +259,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:light_blue_petal",
+    "seed": "botania:light_blue_mystical_petal",
     "block": "botania:light_blue_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:light_blue_petal",
+        "botania:light_blue_mystical_petal",
         1
       ]
     ],
@@ -272,12 +272,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:light_gray_petal",
+    "seed": "botania:light_gray_mystical_petal",
     "block": "botania:light_gray_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:light_gray_petal",
+        "botania:light_gray_mystical_petal",
         1
       ]
     ],
@@ -285,12 +285,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:light_gray_petal",
+    "seed": "botania:light_gray_mystical_petal",
     "block": "botania:light_gray_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:light_gray_petal",
+        "botania:light_gray_mystical_petal",
         1
       ]
     ],
@@ -298,12 +298,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:lime_petal",
+    "seed": "botania:lime_mystical_petal",
     "block": "botania:lime_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:lime_petal",
+        "botania:lime_mystical_petal",
         1
       ]
     ],
@@ -311,12 +311,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:lime_petal",
+    "seed": "botania:lime_mystical_petal",
     "block": "botania:lime_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:lime_petal",
+        "botania:lime_mystical_petal",
         1
       ]
     ],
@@ -324,12 +324,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:magenta_petal",
+    "seed": "botania:magenta_mystical_petal",
     "block": "botania:magenta_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:magenta_petal",
+        "botania:magenta_mystical_petal",
         1
       ]
     ],
@@ -337,12 +337,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:magenta_petal",
+    "seed": "botania:magenta_mystical_petal",
     "block": "botania:magenta_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:magenta_petal",
+        "botania:magenta_mystical_petal",
         1
       ]
     ],
@@ -350,12 +350,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:orange_petal",
+    "seed": "botania:orange_mystical_petal",
     "block": "botania:orange_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:orange_petal",
+        "botania:orange_mystical_petal",
         1
       ]
     ],
@@ -363,12 +363,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:orange_petal",
+    "seed": "botania:orange_mystical_petal",
     "block": "botania:orange_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:orange_petal",
+        "botania:orange_mystical_petal",
         1
       ]
     ],
@@ -376,12 +376,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:pink_petal",
+    "seed": "botania:pink_mystical_petal",
     "block": "botania:pink_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:pink_petal",
+        "botania:pink_mystical_petal",
         1
       ]
     ],
@@ -389,12 +389,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:pink_petal",
+    "seed": "botania:pink_mystical_petal",
     "block": "botania:pink_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:pink_petal",
+        "botania:pink_mystical_petal",
         1
       ]
     ],
@@ -402,12 +402,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:purple_petal",
+    "seed": "botania:purple_mystical_petal",
     "block": "botania:purple_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:purple_petal",
+        "botania:purple_mystical_petal",
         1
       ]
     ],
@@ -415,12 +415,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:purple_petal",
+    "seed": "botania:purple_mystical_petal",
     "block": "botania:purple_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:purple_petal",
+        "botania:purple_mystical_petal",
         1
       ]
     ],
@@ -428,12 +428,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:red_petal",
+    "seed": "botania:red_mystical_petal",
     "block": "botania:red_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:red_petal",
+        "botania:red_mystical_petal",
         1
       ]
     ],
@@ -441,12 +441,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:red_petal",
+    "seed": "botania:red_mystical_petal",
     "block": "botania:red_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:red_petal",
+        "botania:red_mystical_petal",
         1
       ]
     ],
@@ -454,12 +454,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:white_petal",
+    "seed": "botania:white_mystical_petal",
     "block": "botania:white_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:white_petal",
+        "botania:white_mystical_petal",
         1
       ]
     ],
@@ -467,12 +467,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:white_petal",
+    "seed": "botania:white_mystical_petal",
     "block": "botania:white_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:white_petal",
+        "botania:white_mystical_petal",
         1
       ]
     ],
@@ -480,12 +480,12 @@ const CLOCHE = [
     "time": 320
   },
   {
-    "seed": "botania:yellow_petal",
+    "seed": "botania:yellow_mystical_petal",
     "block": "botania:yellow_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:yellow_petal",
+        "botania:yellow_mystical_petal",
         1
       ]
     ],
@@ -493,12 +493,12 @@ const CLOCHE = [
     "time": 480
   },
   {
-    "seed": "botania:yellow_petal",
+    "seed": "botania:yellow_mystical_petal",
     "block": "botania:yellow_mystical_flower",
     "rtype": "immersiveengineering:generic",
     "results": [
       [
-        "botania:yellow_petal",
+        "botania:yellow_mystical_petal",
         1
       ]
     ],
@@ -960,6 +960,17 @@ ServerEvents.recipes(event => {
   const hasTag = (tag) => {
     try { return !Ingredient.of(tag).isEmpty() } catch (e) { return false }
   }
+  // Рендер клоша по типу: IE 12 требует у stem — crop/stem/attachedStem,
+  // у doublecrop — doublingAge (возраст, с которого растение занимает два блока).
+  const renderFor = (c) => {
+    if (c.rtype === `${IE}:stem`) {
+      const base = c.seed.replace(/_seeds$/, '')          // minecraft:melon_seeds -> minecraft:melon
+      const [ns, path] = base.split(':')
+      return { type: c.rtype, crop: base, stem: `${ns}:${path}_stem`, attachedStem: `${ns}:attached_${path}_stem` }
+    }
+    if (c.rtype === `${IE}:doublecrop`) return { type: c.rtype, block: c.block, doublingAge: c.doublingAge || 3 }
+    return { type: c.rtype, block: c.block }
+  }
   // Безопасная выдача: один битый рецепт не должен ронять весь скрипт
   const add = (json) => {
     try { event.custom(json); made++ } catch (e) { skipped++ }
@@ -1026,6 +1037,7 @@ ServerEvents.recipes(event => {
       if (!hasTag(`#${src}`)) return
       add({
         type: `${IE}:arc_furnace`,
+        additives: [],   // IE 12: ключ обязателен даже пустым
         energy: TUNING.arcEnergy,
         time: TUNING.arcTime,
         input: { tag: src },
@@ -1041,7 +1053,7 @@ ServerEvents.recipes(event => {
     add({
       type: `${IE}:cloche`,
       input: { item: c.seed },
-      render: { type: c.rtype, block: c.block },
+      render: renderFor(c),
       results: c.results.map(([id, n]) => ({ id: id, count: n })),
       soil: { item: c.soil },
       time: c.time,
