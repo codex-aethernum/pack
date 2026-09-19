@@ -1042,7 +1042,7 @@ ServerEvents.recipes(event => {
       type: `${IE}:cloche`,
       input: { item: c.seed },
       render: { type: c.rtype, block: c.block },
-      results: c.results.map(([id, n]) => ({ id, count: n })),
+      results: c.results.map(([id, n]) => ({ id: id, count: n })),
       soil: { item: c.soil },
       time: c.time,
     })

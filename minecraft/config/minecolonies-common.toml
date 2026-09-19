@@ -1,9 +1,9 @@
-#All configuration items related to the core gameplay
+#Все настройки, связанные с основным игровым процессом
 [gameplay]
-	#Whether to generate supply ships and camps in loot chests. [Default: true]
+	#Можно ли генерировать корабли снабжения и лагеря в сундуках с награбленным добром. blockui.config.default.boolean
 	generatesupplyloot = true
 
-#All configurations related to the request system
+#Все настройки, связанные с системой запросов
 [requestsystem]
-	#Should the request system show debug information in the debug.log? Useful if malfunctioning. [Default: false]
+	#Следует ли системе запросов отображать отладочную информацию в debug.log? Полезно при сбоях. blockui.config.default.boolean
 	enabledebuglogging = false
