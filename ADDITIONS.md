@@ -269,3 +269,176 @@ ET не конфликтует. Artificer's Armory — оружие для ма�
 3. Проверить лог Almost Unified: новые моды принесут свои руды и слитки, и
    список юнификации вырастет.
 4. Пересчитать `client_only_mods.txt` — часть новых модов клиентские.
+
+---
+
+# Часть 2: системы поверх эр и клиент
+
+Второй список (201 позиция, 2026-09-19). Это не контент по эрам, а системы,
+которые работают вдоль всего пути — бой, смерть, сложность, навыки, деревни,
+клеймы — плюс большой пласт клиентского интерфейса и визуала. Половина
+списка — взаимоисключающие альтернативы на одну роль, и главная работа тут
+не «доступно ли», а **«кто из двух»**.
+
+Уже стоит 38 (из них Better Combat, Combat Roll, Corpse, Serene Seasons,
+Xaero, JEI + JER, Jade, FTB Quests + Teams — это уже принятые решения по
+своим ролям). Пять из «стоит» оказались ошибкой поиска и **не стоят**:
+Enchanting Infuser, Just Enough Professions / Breeding / Effect Descriptions /
+Archaeology.
+
+## Бой и движение
+
+| Мод | Решение | Почему |
+|---|---|---|
+| **Epic Fight** | **нет** | Несовместим с Better Combat, который уже стоит и работает с любым оружием. Epic Fight переписывает бой целиком — стамина, уклонения, камера — и требует анимаций под каждое оружие; 230 видов оружия ET останутся «дефолтными». Это выбор другой сборки. |
+| **Expanded Combat** | да, эра 1–3 | новые типы оружия и щиты, с Better Combat совместим |
+| **ParCool!** | **нет** | паркур: бег по стенам, прыжки, перекаты. Вертикальная мобильность с первого часа обесценивает подземелья и структуры, ради которых поставлено 483 штуки |
+| **Wall-Jump TXF** | **нет** | то же, дешевле |
+| **Combat Roll** | стоит | |
+| Shield Mechanics, Ultrakill / Carry Mechanics, Delta Force Skills | нет / недоступны | |
+
+## Смерть
+
+| Мод | Решение | Почему |
+|---|---|---|
+| **Corpse** | стоит | труп с инвентарём, честно и без магии |
+| **PlayerRevive** | **да** | состояние «повален» с возможностью поднять товарища. Для сервера — то, что превращает хардкор из одиночного в командный. С Corpse совместим |
+| **Corail Tombstone** | **нет** | дубль Corpse плюс свиток телепорта к могиле — бесплатное перемещение |
+
+## Сложность и мобы
+
+| Мод | Решение | Почему |
+|---|---|---|
+| **In Control!** | **да, обязательно** | движок правил спавна. Единственный способ управлять, *какие* мобы Born in Chaos, Alex's Mobs и ET появляются в *какую* эру и в каком измерении. Без него сложность растёт только сама по себе |
+| **Improved Mobs** | да | экипировка и способности мобов растут с днями и расстоянием от спавна — ложится на эры конфигом |
+| **Enhanced AI** | да | мобы умнее: обходят, ломают, лазают. Дёшево и злобно |
+| **Champions** | **нет** | элитные мобы с аффиксами — эту роль уже играют боссы Apotheosis. Оригинал под 1.21.1 не выходил, есть только Unofficial |
+| Majrusz's Progressive Difficulty | недоступен | под 1.21.1 NeoForge нет |
+
+## Еда, сезоны, погода
+
+| Мод | Решение | Почему |
+|---|---|---|
+| **Spice of Life: Carrot Edition** | **да** (CurseForge) | сердца за разнообразие еды. Даёт смысл тысяче блюд Pam's и Farmer's Delight, иначе игрок ест одно и то же |
+| **Serene Seasons** | стоит | |
+| **Ecliptic Seasons** | **нет** | второй сезонный мод |
+| **Snow! Real Magic!**, **Snow Under Trees** | да | снег копится и лежит под деревьями — с Cold Sweat это не косметика, а угроза |
+| Diet | недоступен | |
+| Advanced Weather, Where Winds Blow, Seasonal Ambiance | нет | по нулю загрузок — сырые |
+
+## Деревни и экономика
+
+| Мод | Решение | Почему |
+|---|---|---|
+| **Guard Villagers** | да, эра 0 | стражники; деревни перестают вымирать в первую ночь |
+| **More Villagers: Re-employed** | да | новые профессии |
+| **Easy Villagers**, **Easy Piglins** | да | торговля без страданий — QoL, прогрессию не трогает |
+| **Trading Post** | да | |
+| **Minecraft Comes Alive Reborn** | **нет** | превращает жителей в людей с семьями — красиво, но конфликтует со всем, что выше, и с MineColonies, которая уже играет роль «живого поселения» |
+| **Lightman's Currency** | **нет** | валюта уже выбрана — Create: Numismatics (часть 1). Две валюты — как два хранилища |
+| **SecurityCraft** | решить позже | защита от чужих; нужен только на публичном сервере |
+| Villager Recruits, Villager Workers | недоступны | |
+
+## Сервер: клеймы, команды, голос
+
+| Мод | Решение | Почему |
+|---|---|---|
+| **FTB Chunks** | **да** (CurseForge, `2101.1.22`) | клеймы и карта чанков. Берём именно его: стек FTB уже стоит (Quests, Teams, Library), клеймы будут через те же команды |
+| **Open Parties and Claims** | **нет** | второй клейм-мод, конкурент FTB Chunks |
+| **FTB Essentials** | да, **с оговоркой** | `/home`, `/tpa`, `/spawn` — а это бесплатное перемещение поверх всей оси перемещения. Ставить с выключенными или платными телепортами |
+| **FTB Ultimine** | **решить** | добыча жилы за один удар. Ускоряет шахту, а шахта — то, что гейтят эры. Варианты: лимит 16 блоков и исключить руды эр 4+; или не ставить |
+| **Simple Voice Chat** | да | |
+
+## Навыки и RPG-слой
+
+| Мод | Решение | Почему |
+|---|---|---|
+| **Pufferfish's Skills** + **Attributes** | **да, важно** | дерево навыков, полностью описываемое JSON. Это второй после In Control инструмент прогрессии: «носить броню Mekanism» или «использовать ракету» можно сделать *навыком*, который открывается на своей эре. Не гейт рецептом, а гейт умением — ровно принцип роадмапа |
+| **Neo Origins** | **решить** | расы с врождёнными способностями. Сильно меняет баланс первых эр (полёт, дыхание под водой с первой минуты). Либо кастомный набор происхождений под сборку, либо нет |
+| Passive Skill Tree | недоступен | под 1.21.1 NeoForge нет |
+| Skillheim, Aura, Skill Proficiencies, Skillcraft, Stamina and Weight | нет | единицы загрузок — сырые |
+| Survival Reimagined, Raft World, The Beyond, Packwork, MinecraftContentExpansion, Quirks, Far From Home | нет | то же |
+
+## Гаджеты и перемещение
+
+| Мод | Решение | Эра / оговорка |
+|---|---|---|
+| **Small Ships** | да, эра 0–2 | корабли. У ET морские биомы Mucunfectio — а плавать сейчас не на чем |
+| **Carry On** | да | перенос блоков и мобов. В чёрный список: спавнеры, алтари ET, ядра Create |
+| **Tool Belt** | да (CurseForge) | |
+| **TrashSlot**, **Simple Magnets** | да | |
+| **Elevator Mod** | да, эра 2 | |
+| **Building Gadgets 2** | да, эра 3 (CurseForge `1.3.9`) | строительство и копирование; рецепты гейтить |
+| **Effortless Building** | **нет** | та же роль, что BG2 |
+| **Mining Gadgets** | эра 5 (CurseForge `1.18.8`) | лазерная добыча — обход шахты, только после Чистилища |
+| **Scannable** | эра 3 | сканер руд; до IE не нужен |
+| **Entangled** | эра 5 | связывает блоки через измерения — логистический обход, вместе с AE2 |
+| **Tempad** | **эра 6+** или нет | портал куда угодно — ломает ось перемещения целиком. Если брать, то как награду Края |
+| **Immersive Aircraft** | эра 3, **с той же проверкой, что #70** | самолёты не должны долетать до Комет |
+| **Iron Jetpacks** | **нет** | железный ярус даёт полёт в эре 1; джетпак у нас — Create, эра 4 |
+| **Dark Utilities** | да | мелочи |
+| Gadgets Against Grind | нет | |
+| Construction Wand | недоступен | |
+
+## Показ рецептов и информация
+
+| Мод | Решение | Почему |
+|---|---|---|
+| **JEI** + **JER** | стоит | |
+| **EMI** | **решить** | лучше JEI на больших сборках (дерево рецептов, избранное), может работать *рядом* с JEI через JEMI. Но два просмотрщика — путаница. Склоняюсь оставить JEI |
+| **Roughly Enough Items** | **нет** | третий просмотрщик |
+| **Just Enough Professions / Breeding / Effect Descriptions / Archaeology** | **да, все четыре** | доступны под 1.21.1, дополняют JEI информацией о жителях, разведении, эффектах, археологии |
+| **Polymorph** | **да, обязательно** | выбор рецепта при конфликте. На 51 тысяче рецептов конфликты гарантированы |
+| **Crafting Tweaks**, **ShulkerBoxTooltip** | да | |
+| **Inventory Sorter** | **нет** | стоит Inventory Profiles Next |
+| **Jade** | стоит | WTHIT и The One Probe — нет |
+| **Legendary Tooltips** + **Equipment Compare** | да, парой | |
+| **Clean Tooltips** | нет | конфликтует с Legendary Tooltips |
+| **Loot Beams: Refork** | да | лучи над лутом, с Lootr смотрится |
+| **Durability Tooltip**, **Armor Durability HUD** | да | |
+| **Lighty** | да | замена Light Overlay, которого под 1.21.1 нет |
+| **Enchanting Infuser**, **Easy Magic**, **Easy Anvils**, **Allurement** | **нет, все четыре** | каждый трогает зачарование или наковальню, а их уже переписал Apotheosis. Гарантированные конфликты |
+| **Comforts** | да | спальники и гамаки |
+| **Shoulder Surfing Reloaded** | да | Better Third Person — нет, та же роль |
+| **Do a Barrel Roll** | да | |
+| Catalogue, Configured | недоступны | под 1.21.1 не выпускались (Configured Defaults — другой мод) |
+
+## Клиент: производительность и визуал
+
+Всё ниже — **только клиент**, в `client_only_mods.txt`.
+
+**Да:** Sodium Extra, Reese's Sodium Options, Entity Model Features, Entity
+Texture Features, 3D Skin Layers, Not Enough Animations, Visuality: Reforged,
+Particle Effects, Falling Leaves, AmbientSounds, Sound Physics Remastered,
+Sounds, Model Gap Fix, Sodium Dynamic Lights, Polytone, Blur+, Drippy Loading
+Screen (пара к FancyMenu — у нас своё меню), Cherished Worlds, BetterF3, Better
+Days, Item Borders, Raised, TipTheScales, Chat Animation, Better Ping Display,
+Screenshot Viewer, Resourcify.
+
+**Distant Horizons** — да, но с оговоркой: 35 измерений, LOD-данные на диске
+растут быстро. Ставить, замерить.
+
+**Нет:**
+
+| Мод | Почему |
+|---|---|
+| **Freecam** | камера сквозь стены на хардкор-сервере — чит |
+| **Full Brightness Toggle**, Gamma Utils | темнота в сборке — часть сложности; Cold Sweat, Deeper Darker, Alex's Caves на ней держатся |
+| **Better Title Screen**, Loading Backgrounds, Dark Loading Screen | конфликтуют с FancyMenu и Drippy |
+| HideHUD, HideTooltip, HUD Manager, InfoPanel | мелкие, по нулю загрузок |
+| Cosmetica, Manas Cosmetics | сервисы косметики |
+| CIT Resewn | нужен только если ресурспак использует CIT — пока нет |
+| Eating Animation, Zoomify, Camera Utils, MiniHUD, Better Mount HUD, Better Statistics Screen, Better Tab, Better Scoreboard, Tooltip Scroll | под 1.21.1 NeoForge нет |
+
+## Итого по части 2
+
+- **Берём: ~70**, из них 29 — только клиент.
+- **Решить (4):** FTB Ultimine, Neo Origins, EMI, SecurityCraft.
+- **Нет (~25):** дубли уже выбранных ролей и всё, что ломает темноту,
+  перемещение или зачарование Apotheosis.
+- **Недоступны (~30).**
+
+Три мода из списка — не QoL, а **инструменты прогрессии**, и они важнее
+всех остальных вместе: **In Control!** (кто спавнится и когда), **Pufferfish's
+Skills** (гейт умением, а не рецептом), **Polymorph** (конфликты рецептов).
+Их ставить первыми.
