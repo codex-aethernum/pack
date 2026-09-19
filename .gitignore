@@ -54,3 +54,4 @@ minecraft/patchouli_data.json
 *.bak
 minecraft/config/ars_nouveau/search_index/
 minecraft/config/spark/
+minecraft/command_history.txt
