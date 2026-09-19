@@ -26,9 +26,7 @@ Minecraft 1.21.1 · NeoForge 21.1.251 · 220 модов · 12 ГБ heap
 |---|---|
 | `MODLIST.md` | состав по категориям |
 | `modlist.lock.json` | лок-файл: слаг, версия, URL, SHA-1 каждого мода |
-| `preflight.py` | проверка №1: битые mods.toml и версии зависимостей |
-| `classcheck.py` | проверка №2: ссылки на исчезнувшие классы соседних модов |
-| `apicheck.py` | проверка №3: вызовы методов/конструкторов с изменившейся сигнатурой |
+| `tools/` | сабмодуль [codex-aethernum/tools](https://github.com/codex-aethernum/tools): три проверки, резолв, скачивание. После клона: `git submodule update --init` |
 | `TROUBLESHOOTING.md` | разбор первого запуска и что чем чинилось |
 | `ROADMAP.md` | **замысел: единый путь через десять эр** |
 | `PLANS.md` | указатель на дерево задач и доску проекта |
@@ -100,9 +98,9 @@ FTB-стек (Quests + Library + Teams + XMod Compat), Architectury и LaserIO �
 ## Проверка перед запуском
 
 ```
-python preflight.py minecraft/mods
-python classcheck.py minecraft/mods
-python apicheck.py minecraft/mods
+python tools/preflight.py minecraft/mods
+python tools/classcheck.py minecraft/mods
+python tools/apicheck.py minecraft/mods
 ```
 
 Ловит два класса ошибок, на которых NeoForge падает ещё до меню:

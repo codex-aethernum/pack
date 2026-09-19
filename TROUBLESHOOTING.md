@@ -34,8 +34,8 @@ RAR-Compat release застыл на старых версиях, а живая 
 ## Две проверки перед запуском
 
 ```bash
-python preflight.py minecraft/mods
-python classcheck.py minecraft/mods
+python tools/preflight.py minecraft/mods
+python tools/classcheck.py minecraft/mods
 ```
 
 **`preflight.py`** — объявленные вещи: `mods.toml` без `modLoader`/`loaderVersion`
@@ -109,7 +109,7 @@ PneumaticCraft вызывает конструктор `BlockTemp` с пятью
 # Третья проверка: apicheck.py
 
 ```bash
-python apicheck.py minecraft/mods
+python tools/apicheck.py minecraft/mods
 ```
 
 `preflight.py` проверяет объявленные диапазоны версий.
