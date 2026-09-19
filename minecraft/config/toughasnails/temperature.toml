@@ -48,7 +48,7 @@
 
 [toggles]
 	#Enable or disable temperature.
-	enable_temperature = true
+	enable_temperature = false
 
 [time]
 	#Amount to change the temperature at night when the original temperature is hot.

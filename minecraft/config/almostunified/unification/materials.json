@@ -10,7 +10,12 @@
     "occultism",
     "ars_nouveau"
   ],
-  "stone_variants": ["stone", "deepslate", "netherrack", "end_stone"],
+  "stone_variants": [
+    "stone",
+    "deepslate",
+    "netherrack",
+    "end_stone"
+  ],
   "tags": [
     "c:dusts/{material}",
     "c:gears/{material}",
@@ -26,9 +31,13 @@
     "c:wires/{material}"
   ],
   "ignored_tags": [],
-  "ignored_items": [],
+  "ignored_items": [
+    "eternal_tales:uranium"
+  ],
   "ignored_recipe_types": [],
-  "ignored_recipe_ids": [],
+  "ignored_recipe_ids": [
+    "botania:marimorphosis/.*"
+  ],
   "priority_overrides": {},
   "recipe_viewer_hiding": true,
   "loot_unification": true,
