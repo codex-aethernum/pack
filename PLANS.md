@@ -23,6 +23,15 @@
 | [#77](https://github.com/codex-aethernum/pack/issues/77) | сшивка Modern Industrialization |
 | [#73](https://github.com/codex-aethernum/pack/issues/73), [#74](https://github.com/codex-aethernum/pack/issues/74) | Neo Origins со своим набором; 29 клиентских модов |
 
+## Порядок
+
+**все моды (#74–#86) → стабильный запуск → граф рецептов (#30) → ворота по эрам → прохождение по эрам → релиз → книга**
+
+Гейтить по неполному составу нельзя: ворота, закрытые до установки всех
+модов, откроет первый же мод, поставленный позже. Установка по эрам — это
+только очерёдность, чтобы ловить ошибки порциями, а не темп прогрессии.
+Граф — скрипт над `mods`, перестраивается после каждого добавления.
+
 Вне прогрессии — совместимость и инфраструктура:
 [#1](https://github.com/codex-aethernum/pack/issues/1) Enhanced Celestials 2,
 [#2](https://github.com/codex-aethernum/pack/issues/2) Sable × Copycats+,
