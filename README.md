@@ -13,6 +13,7 @@ Minecraft 1.21.1 · NeoForge 21.1.251 · 220 модов · 12 ГБ heap
 |---|---|
 | [pack](https://github.com/codex-aethernum/pack) | этот репозиторий: конфиги, KubeJS, оформление, доки |
 | [tools](https://github.com/codex-aethernum/tools) | скрипты сборки и три проверки, отдельно и без привязки к сборке |
+| [book](https://github.com/codex-aethernum/book) | Codex Aethernum Book — квестовая книга: 1165 заданий, 20 карт прогрессии |
 
 Джарников модов в git нет: 1.1 ГБ чужого кода, который к тому же почти нигде
 нельзя перераздавать. Состав воспроизводится из `modlist.lock.json` —
