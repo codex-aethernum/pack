@@ -17,6 +17,11 @@
 | [#10](https://github.com/codex-aethernum/pack/issues/10), [#22](https://github.com/codex-aethernum/pack/issues/22)–[#27](https://github.com/codex-aethernum/pack/issues/27) | семь осей: техника, магия, выживание и еда, хранение, колония, лут и сила, перемещение |
 | [#28](https://github.com/codex-aethernum/pack/issues/28) | юнификация и чистка Almost Unified |
 | [#29](https://github.com/codex-aethernum/pack/issues/29) | инструменты: граф рецептов, поиск обходов, `doors.py` |
+| [#78](https://github.com/codex-aethernum/pack/issues/78)–[#86](https://github.com/codex-aethernum/pack/issues/86) | установка модов по эрам (из [ADDITIONS.md](ADDITIONS.md)), под эпиками своих эр |
+| [#72](https://github.com/codex-aethernum/pack/issues/72) | инструменты прогрессии первыми: In Control!, Pufferfish's Skills, Polymorph |
+| [#75](https://github.com/codex-aethernum/pack/issues/75), [#76](https://github.com/codex-aethernum/pack/issues/76) | форки: Aether Redux, Dungeons Enhanced |
+| [#77](https://github.com/codex-aethernum/pack/issues/77) | сшивка Modern Industrialization |
+| [#73](https://github.com/codex-aethernum/pack/issues/73), [#74](https://github.com/codex-aethernum/pack/issues/74) | Neo Origins со своим набором; 29 клиентских модов |
 
 Вне прогрессии — совместимость и инфраструктура:
 [#1](https://github.com/codex-aethernum/pack/issues/1) Enhanced Celestials 2,
