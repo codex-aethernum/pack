@@ -1,0 +1,13 @@
+{
+  "music.menu": {
+    "replace": true,
+    "subtitle": "Workshop to Space",
+    "sounds": [
+      {
+        "name": "codex/menu_theme",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  }
+}

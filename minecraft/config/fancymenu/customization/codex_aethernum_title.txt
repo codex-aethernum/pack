@@ -1,0 +1,59 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  render_custom_elements_behind_vanilla = false
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+menu_background {
+  background_type = image
+  instance_identifier = codex_background
+  show_background = true
+  image_path = config/fancymenu/assets/menu_background.png
+  repeat_texture = false
+  slide = false
+  parallax = false
+  restart_animated_on_menu_load = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_logo_widget
+  is_hidden = true
+}
+
+element {
+  element_type = image
+  instance_identifier = codex_embers_overlay
+  source = config/fancymenu/assets/menu_embers.png
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = %guiwidth%
+  height = %guiheight%
+  base_opacity = 1.0
+  repeat_texture = false
+  restart_animated_on_menu_load = true
+}
+
+element {
+  element_type = image
+  instance_identifier = codex_logo
+  source = config/fancymenu/assets/menu_logo.png
+  anchor_point = top-centered
+  x = -195
+  y = 10
+  width = 390
+  height = 130
+  base_opacity = 1.0
+  repeat_texture = false
+}

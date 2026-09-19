@@ -1,0 +1,11 @@
+#Pam's Harvest Craft 2 Nerf config:
+#REQUIRES RESTART FOR CHANGES TO TAKE EFFECT!
+#
+#
+#
+#Whether to change all of Pam's HarvestCraft 2 food values to 1.12.2 values
+nerfpams = true
+#Whether to fix game breaking foods like fresh water, fresh milk, salt, etc
+nerfgamebreaking = true
+#Whether to change default minecraft food values to what Pam's HarvestCraft 2 sets them to in 1.12.2 (nerf)
+nerfminecraft = false

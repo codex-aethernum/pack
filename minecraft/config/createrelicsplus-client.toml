@@ -1,0 +1,10 @@
+#Клиентские настройки интерфейса для аддона Create Relics Plus
+[hud_settings]
+	#Положение полоски заряда пара Металлической Розы Ветров на вашем экране.
+	#Доступные варианты:
+	# - BOTTOM_RIGHT : Справа снизу экрана (над панелью еды)
+	# - ABOVE_HOTBAR : Снизу по центру экрана (над ванильной панелью опыта)
+	# - TOP_LEFT     : В верхнем левом углу экрана (под сердечками)
+	# - TOP_RIGHT    : В верхнем правом углу экрана
+	#Allowed Values: ABOVE_HOTBAR, BOTTOM_RIGHT, TOP_LEFT, TOP_RIGHT
+	cape_hud_position = "ABOVE_HOTBAR"

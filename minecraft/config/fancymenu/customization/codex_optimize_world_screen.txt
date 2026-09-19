@@ -1,0 +1,26 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = optimize_world_screen
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  render_custom_elements_behind_vanilla = false
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+menu_background {
+  background_type = image
+  instance_identifier = codex_background_optimize_world_screen
+  show_background = true
+  image_path = config/fancymenu/assets/menu_background.png
+  repeat_texture = false
+  slide = false
+  parallax = false
+  restart_animated_on_menu_load = false
+}

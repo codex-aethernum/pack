@@ -1,0 +1,51 @@
+# ── Моды ──────────────────────────────────────────────────────────────
+# 1.1 ГБ чужих джарников. Состав воспроизводится из modlist.lock.json,
+# лицензии на перераспространение у большинства модов этого не разрешают.
+minecraft/mods/
+minecraft/coremods/
+minecraft/downloads/
+
+# ── Личное и временное ────────────────────────────────────────────────
+minecraft/saves/
+minecraft/logs/
+minecraft/crash-reports/
+minecraft/screenshots/
+minecraft/usercache.json
+minecraft/usernamecache.json
+minecraft/local/
+minecraft/xaero/
+minecraft/server-resource-packs/
+minecraft/moddata/
+
+# ── Кэши, которые моды генерируют сами ────────────────────────────────
+minecraft/dynamic-resource-pack-cache/
+minecraft/dynamic-data-pack-cache/
+minecraft/config/createaddonorganizer/remote_banners/
+minecraft/config/createaddonorganizer/remote_text_banners/
+minecraft/config/createaddonorganizer/remote_banner_pools/
+minecraft/config/fancymenu/user_variables.db
+minecraft/kubejs/cache/
+minecraft/.mixin.out/
+
+# ── Шейдеры и сторонние ресурспаки ────────────────────────────────────
+# Свой ресурспак CodexAethernum — не игнорируется, он часть сборки.
+minecraft/shaderpacks/
+minecraft/resourcepacks/*.zip
+minecraft/texturepacks/
+
+# ── Prism: локальное состояние инстанса ───────────────────────────────
+# mmc-pack.json оставляем: в нём версия NeoForge и Java. instance.cfg —
+# локальные пути и размер окна, у каждого свои.
+instance.cfg
+.minecraft/
+
+# ── Прочее ────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.orig.jar
+
+# ── Локальные маркеры прогресса игрока ────────────────────────────────
+minecraft/.sable
+minecraft/.qmenu_opened.marker
+minecraft/ponders_watched.json
+minecraft/patchouli_data.json

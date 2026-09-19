@@ -1,0 +1,28 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  render_custom_elements_behind_vanilla = false
+  universal_layout_whitelist = options_screen;options_sub_screen;accessibility_options_screen;chat_options_screen;sound_options_screen;online_options_screen;select_world_screen;create_world_screen;create_flat_world_screen;preset_flat_world_screen;edit_world_screen;join_multiplayer_screen;direct_join_server_screen;edit_server_screen;pack_selection_screen;title_confirm_screen
+  universal_layout_blacklist = title_screen;pause_screen;creative_mode_inventory_screen;game_mode_switcher_screen;level_loading_screen;receiving_level_screen
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+menu_background {
+  background_type = image
+  instance_identifier = codex_background_universal
+  show_background = true
+  image_path = config/fancymenu/assets/menu_background.png
+  repeat_texture = false
+  slide = false
+  parallax = false
+  restart_animated_on_menu_load = false
+}
